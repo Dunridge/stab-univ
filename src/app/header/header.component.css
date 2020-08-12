@@ -1,0 +1,48 @@
+
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);
+/*@import url(https://github.com/lipis/flag-icon-css/blob/master/css/flag-icon.min.css);*/
+
+nav {
+  background-color: #becce8;
+  height: 180px;
+}
+
+.info-section {
+  position: relative;
+  /*right: 10%;*/
+}
+
+.univ-department {
+  position: relative;
+  left: 20%;
+}
+
+.flag-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-brand {
+  position: relative;
+  bottom: 94px;
+  transform: rotate(270deg);
+  right: 74px;
+}
+
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-header > img {
+  margin: 10px;
+}
+
+.univ-title {
+  font-size: 22px;
+}
+
+.univ-department {
+  font-size: 20px;
+}
