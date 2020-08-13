@@ -1,6 +1,5 @@
 
-@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);
-/*@import url(https://github.com/lipis/flag-icon-css/blob/master/css/flag-icon.min.css);*/
+@import "~bootstrap/dist/css/bootstrap.css";
 
 nav {
   background-color: #becce8;
