@@ -1,0 +1,50 @@
+.page-container {
+  height: 100%;
+  background: rgb(35, 42, 58);
+  display: flex;
+}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.list-item {
+  position: relative;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.95);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /*font-family: 'Roboto';*/
+}
+
+
+.list-item i.material-icons {
+  margin-right: 5px;
+  font-size: 20px;
+  /*cursor: pointer;*/
+}
+
+.list-item:first-child {
+  padding-top: 30px;
+}
+
+.list-item:hover {
+  color: white;
+}
+
+/*.list-item::before {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  height: 100%;*/
+/*  width: 50px;*/
+/*  background-color: orange;*/
+/*}*/
+
+.list-items {
+
+}
