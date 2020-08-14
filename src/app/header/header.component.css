@@ -4,16 +4,17 @@
 nav {
   background-color: #becce8;
   height: 180px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info-section {
   position: relative;
-  /*right: 10%;*/
-}
-
-.univ-department {
-  position: relative;
-  left: 20%;
+  right: 10%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flag-container {
@@ -40,8 +41,25 @@ nav {
 
 .univ-title {
   font-size: 22px;
+  color: #696969;
+  /*font-size: 13px;*/
+  font-family: Verdana;
+}
+
+.faculty {
+  font-size: 22px;
+  color: #696969;
+  /*font-size: 13px;*/
+  /*font-family: Verdana;*/
 }
 
 .univ-department {
-  font-size: 20px;
+  font-size: 30px;
+  /*position: relative;*/
+  /*left: 20%;*/
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
 }
