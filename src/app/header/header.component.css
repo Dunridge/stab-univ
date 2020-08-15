@@ -1,11 +1,17 @@
 
 @import "~bootstrap/dist/css/bootstrap.css";
 
+.bg-container {
+  background-image: url("../../assets/images/bg-stab.png");
+  background-size: cover;
+}
+
 nav {
   background-color: #126aa1;
   height: 180px;
   display: flex;
   justify-content: space-between;
+  color: white;
 }
 
 .info-section {
@@ -26,8 +32,13 @@ nav {
 .navbar-brand {
   position: relative;
   bottom: 94px;
+  color: white;
   transform: rotate(270deg);
   right: 74px;
+}
+
+.nav-title {
+  color: white;
 }
 
 .navbar-header {
@@ -41,14 +52,14 @@ nav {
 
 .univ-title {
   font-size: 22px;
-  color: #696969;
+  /*color: #696969;*/
   /*font-size: 13px;*/
   font-family: Verdana;
 }
 
 .faculty {
   font-size: 22px;
-  color: #696969;
+  color: white;
   /*font-size: 13px;*/
   /*font-family: Verdana;*/
 }

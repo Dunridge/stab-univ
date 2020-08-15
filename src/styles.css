@@ -12,6 +12,17 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: 'Roboto';
+
+  /*margin: 0;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+}
+
+html {
+  overflow-x: hidden;
+  /*margin-right: -40px;*/
+  /*margin-bottom: -4px;*/
 }
 
 a {
