@@ -1,13 +1,21 @@
+
+
 .page-container {
   height: 100%;
-  background: rgb(35, 42, 58);
+  /*background: rgb(96, 116, 159); !* #84ceeb*! !*was: rgb(35, 42, 58)*!*/
+  background: #5fb4ec;
   display: flex;
 }
 
 .sidebar {
   height: 100%;
   width: 300px;
-  background: rgba(0, 0, 0, 0.2);
+  /*background: rgba(0, 0, 0, 0.2); !* #5ab9ea*! !*was: rgba(0, 0, 0, 0.2);*!*/
+  background: #082d45;
+}
+
+.list-items {
+  height: 100%;
 }
 
 .list-item {
@@ -45,6 +53,23 @@
 /*  background-color: orange;*/
 /*}*/
 
-.list-items {
 
+
+.useful-links {
+}
+
+.useful-links-list a {
+  display: block;
+}
+
+.section-name {
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+div.sidebar > div > a:nth-child(11) {
+  position: relative;
+  bottom: 20px;
 }

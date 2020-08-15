@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {DashboardComponent} from './body/dashboard/dashboard.component';
-import {DisciplinesComponent} from './body/disciplines/disciplines.component';
 import {NewsComponent} from './body/news/news.component';
 import {SuccessInfoComponent} from './body/success-info/success-info.component';
 import {AppComponent} from './app.component';
+import {MainComponent} from './body/main/main.component';
+import {OsArchitectureComponent} from './body/os-architecture/os-architecture.component';
+import {InformaticsComponent} from './body/informatics/informatics.component';
+import {DatabasesComponent} from './body/databases/databases.component';
+import {ProgrammingComponent} from './body/programming/programming.component';
 
 
 const routes: Routes = [
@@ -12,16 +16,32 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       {
+        path: 'main',
+        component: MainComponent
+      },
+      {
         path: 'news',
         component: NewsComponent
       },
       {
-        path: 'disciplines',
-        component: DisciplinesComponent
-      },
-      {
         path: 'success-info',
         component: SuccessInfoComponent
+      },
+      {
+        path: 'os-architecture',
+        component: OsArchitectureComponent
+      },
+      {
+        path: 'informatics',
+        component: InformaticsComponent
+      },
+      {
+        path: 'databases',
+        component: DatabasesComponent
+      },
+      {
+        path: 'programming',
+        component: ProgrammingComponent
       }
     ]
   }
