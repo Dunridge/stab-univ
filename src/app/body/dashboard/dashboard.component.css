@@ -3,7 +3,8 @@
 .page-container {
   height: 100%;
   /*background: rgb(96, 116, 159); !* #84ceeb*! !*was: rgb(35, 42, 58)*!*/
-  background: #5fb4ec;
+  /*background: #5fb4ec;*/
+  background: #ccefff;
   display: flex;
 }
 
@@ -11,18 +12,25 @@
   height: 100%;
   width: 300px;
   /*background: rgba(0, 0, 0, 0.2); !* #5ab9ea*! !*was: rgba(0, 0, 0, 0.2);*!*/
-  background: #082d45;
+  /*background: #082d45;*/
+  /*background: #000080;*/
+  /*background: #b3d9ff;*/
+  background: #99ccff;
 }
 
 .list-items {
   height: 100%;
 }
 
+.list-items > * {
+  color: black;
+}
+
 .list-item {
   position: relative;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.95);
-  padding: 10px 20px;
+  padding: 0px 20px;
   display: flex;
   align-items: center;
   cursor: pointer;

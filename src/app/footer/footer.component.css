@@ -1,7 +1,7 @@
 
 footer {
-  margin-top: -18px;
-  background-color: #1676b6;
+  margin-top: -15px;
+  background-color: #00004d;
   display: block;
   justify-content: center;
   align-items: center;
@@ -16,25 +16,30 @@ footer {
 
 .copyright p {
   padding-right: 60px;
-  padding-top: 40px;
+  padding-top: 5px;
+  color: white;
 }
 
 .useful-links {
   width: 100%;
+  padding-left: 30px;
   /*justify-content: space-around;*/
 }
 
 .useful-links p {
+  color: white;
   display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
+  justify-content: start;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .useful-links-list {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 .useful-links-list a {
-  /*display: block;*/
+  color: white;
 }
