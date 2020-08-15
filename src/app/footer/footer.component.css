@@ -1,7 +1,7 @@
 
 footer {
   margin-top: -15px;
-  background-color: #00004d;
+  background-color: #3399ff;
   display: block;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ footer {
 .copyright p {
   padding-right: 60px;
   padding-top: 5px;
-  color: white;
+  color: black;
 }
 
 .useful-links {
@@ -27,7 +27,7 @@ footer {
 }
 
 .useful-links p {
-  color: white;
+  color: black;
   display: flex;
   justify-content: start;
   padding-top: 30px;
@@ -41,5 +41,6 @@ footer {
 }
 
 .useful-links-list a {
-  color: white;
+  color: black;
 }
+

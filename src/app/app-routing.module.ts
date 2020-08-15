@@ -9,6 +9,7 @@ import {OsArchitectureComponent} from './body/os-architecture/os-architecture.co
 import {InformaticsComponent} from './body/informatics/informatics.component';
 import {DatabasesComponent} from './body/databases/databases.component';
 import {ProgrammingComponent} from './body/programming/programming.component';
+import {LiteratureComponent} from './body/literature/literature.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
       {
         path: 'programming',
         component: ProgrammingComponent
+      },
+      {
+        path: 'literature',
+        component: LiteratureComponent
       }
     ]
   }

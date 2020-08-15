@@ -3,4 +3,14 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 40px;
 }
+
+.tutor-image {
+  height: 200px;
+  width: 150px;
+  background: url("../../../assets/images/iev.jpg");
+  background-size: cover;
+}
+
+
