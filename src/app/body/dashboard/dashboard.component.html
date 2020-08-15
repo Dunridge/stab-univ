@@ -1,25 +1,55 @@
 <div class="page-container">
   <div class="sidebar">
     <div class="list-items">
+      <a routerLink="/main" class="list-item">
+        <!--        <i class="material-icons">history_edu</i>-->
+        <i class="material-icons">bookmark_border</i>
+        <p>Головна</p>
+      </a>
       <a routerLink="/news" class="list-item">
 <!--        <i class="material-icons">history_edu</i>-->
         <i class="material-icons">bookmark_border</i>
         <p>Новини</p>
       </a>
-      <a routerLink="/disciplines" class="list-item">
-<!--        <i class="material-icons">library_books</i>-->
-        <i class="material-icons">bookmark_border</i>
-        <p>Дисципліни</p>
-      </a>
+<!--      <a routerLink="/disciplines" class="list-item">-->
+<!--&lt;!&ndash;        <i class="material-icons">library_books</i>&ndash;&gt;-->
+<!--        <i class="material-icons">bookmark_border</i>-->
+<!--        <p>Дисципліни</p>-->
+<!--      </a>-->
       <a routerLink="/success-info" class="list-item">
 <!--        <i class="material-icons">stars</i>-->
         <i class="material-icons">bookmark_border</i>
         <p>Дані про успішність</p>
       </a>
+      <hr/>
+      <p class="section-name">Дисципліни</p>
+      <a routerLink="/os-architecture" class="list-item">
+<!--        <i class="material-icons">stars</i>-->
+        <i class="material-icons">bookmark_border</i>
+        <p>Архітектура ОС</p>
+      </a>
+      <a routerLink="/informatics" class="list-item">
+<!--        <i class="material-icons">stars</i>-->
+        <i class="material-icons">bookmark_border</i>
+        <p>Інформатика та ОТ</p>
+      </a>
+      <a routerLink="/databases" class="list-item">
+<!--        <i class="material-icons">stars</i>-->
+        <i class="material-icons">bookmark_border</i>
+        <p>Бази даних та СУБД</p>
+      </a>
+      <a routerLink="/programming" class="list-item">
+<!--        <i class="material-icons">stars</i>-->
+        <i class="material-icons">bookmark_border</i>
+        <p>Сучасні технології програмування</p>
+      </a>
     </div>
+
+
+
   </div>
 
-  <div>
+  <div class="router-content">
     <router-outlet></router-outlet>
   </div>
 </div>
