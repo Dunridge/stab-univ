@@ -1,0 +1,11 @@
+
+.publications {
+  padding: 40px;
+}
+
+.publication-item {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

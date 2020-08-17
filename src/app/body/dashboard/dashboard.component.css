@@ -81,3 +81,7 @@ div.sidebar > div > a:nth-child(11) {
   position: relative;
   bottom: 20px;
 }
+
+.router-content {
+  width: 100%;
+}
