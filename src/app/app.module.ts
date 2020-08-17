@@ -14,6 +14,7 @@ import { OsArchitectureComponent } from './body/os-architecture/os-architecture.
 import { InformaticsComponent } from './body/informatics/informatics.component';
 import { DatabasesComponent } from './body/databases/databases.component';
 import { ProgrammingComponent } from './body/programming/programming.component';
+import { LiteratureComponent } from './body/literature/literature.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ProgrammingComponent } from './body/programming/programming.component';
     OsArchitectureComponent,
     InformaticsComponent,
     DatabasesComponent,
-    ProgrammingComponent
+    ProgrammingComponent,
+    LiteratureComponent
   ],
   imports: [
     BrowserModule,
