@@ -1,7 +1,7 @@
 
 .main-section {
   display: flex;
-  width: 100%;
+  /*width: 100%;*/
   justify-content: space-between;
   padding: 40px;
 }
@@ -14,9 +14,61 @@
 }
 
 .tutor-information {
-  width: 70%;
+  width: 100%;
 }
 
 .tutor-description {
   display: block;
+}
+
+.tutor-details {
+  margin: 20px;
+}
+
+.about-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.myself {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myself-description {
+  display: flex;
+  justify-content: space-around;
+}
+
+.credentials,
+.credentials-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.credentials {
+  width: 100%;
+}
+
+.desc-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tutor-description {
+  text-indent: 30px;
+}
+
+.contact-info {
+  font-weight: 600;
 }

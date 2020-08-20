@@ -21,7 +21,7 @@ footer {
 }
 
 .useful-links {
-  width: 100%;
+  /*width: 100%;*/
   padding-left: 30px;
   /*justify-content: space-around;*/
 }
@@ -31,7 +31,7 @@ footer {
   display: flex;
   justify-content: start;
   padding-top: 30px;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 .useful-links-list {
