@@ -12,6 +12,8 @@ footer {
 .copyright {
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  bottom: 20px;
 }
 
 .copyright p {
