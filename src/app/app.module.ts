@@ -15,6 +15,7 @@ import { InformaticsComponent } from './body/informatics/informatics.component';
 import { DatabasesComponent } from './body/databases/databases.component';
 import { ProgrammingComponent } from './body/programming/programming.component';
 import { LiteratureComponent } from './body/literature/literature.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LiteratureComponent } from './body/literature/literature.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
