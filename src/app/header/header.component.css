@@ -78,6 +78,7 @@ nav {
   display: block;
 }
 
+
 @media screen and (max-width: 1210px) {
   .info-section > * {
     font-size: 20px;

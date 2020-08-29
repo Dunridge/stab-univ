@@ -3,27 +3,14 @@
 /*@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);*/
 @import "../node_modules/font-awesome/css/font-awesome.css";
 
-/*
-Color scheme:
-1) #568oe9
-2) #84ceeb
-*/
-
 html, body {
   height: 100%;
   margin: 0;
   font-family: 'Roboto';
-
-  /*margin: 0;*/
-  /*position: absolute;*/
-  /*top: 0;*/
-  /*left: 0;*/
 }
 
 html {
-  /*overflow-x: hidden;*/
-  /*margin-right: -40px;*/
-  /*margin-bottom: -4px;*/
+  min-width: 980px;
 }
 
 a {
