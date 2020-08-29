@@ -57,3 +57,11 @@ footer {
 .btn-twitter{color:#fff!important;background-color:#55acee!important;}
 .btn-mail{color:#fff!important;background-color:#512DA8!important;}
 
+.social-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.useful-links-header {
+  white-space: nowrap;
+}
