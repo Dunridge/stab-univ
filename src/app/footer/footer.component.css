@@ -9,6 +9,10 @@ footer {
   height: 200px;
 }
 
+.footer {
+  background-color: #3399ff;
+}
+
 .copyright {
   display: flex;
   justify-content: flex-end;
@@ -45,4 +49,11 @@ footer {
 .useful-links-list a {
   color: black;
 }
+
+.btn-facebook {color:#fff!important; background-color:#3b5998!important;}
+.btn-google-plus{color:#fff!important;background-color:#dd4b39!important;}
+.btn-youtube{color:#fff!important;background-color:#ff4b39!important;}
+.btn-linkedin{color:#fff!important;background-color:#007bb6!important;}
+.btn-twitter{color:#fff!important;background-color:#55acee!important;}
+.btn-mail{color:#fff!important;background-color:#512DA8!important;}
 
