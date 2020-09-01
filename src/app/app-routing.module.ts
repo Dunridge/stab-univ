@@ -14,6 +14,7 @@ import {FirstGroupComponent} from './body/groups/first-group/first-group.compone
 import {SecondGroupComponent} from './body/groups/second-group/second-group.component';
 import {ThirdGroupComponent} from './body/groups/third-group/third-group.component';
 import {FourthGroupComponent} from './body/groups/fourth-group/fourth-group.component';
+import {FifthGroupComponent} from './body/groups/fifth-group/fifth-group.component';
 
 
 const routes: Routes = [
@@ -67,6 +68,10 @@ const routes: Routes = [
       {
         path: 'k-24',
         component: FourthGroupComponent
+      },
+      {
+        path: 'k-25',
+        component: FifthGroupComponent
       }
     ]
   }

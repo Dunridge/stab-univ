@@ -25,6 +25,7 @@ import { FirstGroupComponent } from './body/groups/first-group/first-group.compo
 import { SecondGroupComponent } from './body/groups/second-group/second-group.component';
 import { ThirdGroupComponent } from './body/groups/third-group/third-group.component';
 import { FourthGroupComponent } from './body/groups/fourth-group/fourth-group.component';
+import { FifthGroupComponent } from './body/groups/fifth-group/fifth-group.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { FourthGroupComponent } from './body/groups/fourth-group/fourth-group.co
     FirstGroupComponent,
     SecondGroupComponent,
     ThirdGroupComponent,
-    FourthGroupComponent
+    FourthGroupComponent,
+    FifthGroupComponent
   ],
   imports: [
     BrowserModule,
