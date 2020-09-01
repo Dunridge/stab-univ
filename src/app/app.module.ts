@@ -21,6 +21,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FirstGroupComponent } from './body/groups/first-group/first-group.component';
+import { SecondGroupComponent } from './body/groups/second-group/second-group.component';
+import { ThirdGroupComponent } from './body/groups/third-group/third-group.component';
+import { FourthGroupComponent } from './body/groups/fourth-group/fourth-group.component';
 
 
 @NgModule({
@@ -37,7 +41,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     InformaticsComponent,
     DatabasesComponent,
     ProgrammingComponent,
-    LiteratureComponent
+    LiteratureComponent,
+    FirstGroupComponent,
+    SecondGroupComponent,
+    ThirdGroupComponent,
+    FourthGroupComponent
   ],
   imports: [
     BrowserModule,

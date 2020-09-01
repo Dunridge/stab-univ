@@ -10,6 +10,10 @@ import {InformaticsComponent} from './body/informatics/informatics.component';
 import {DatabasesComponent} from './body/databases/databases.component';
 import {ProgrammingComponent} from './body/programming/programming.component';
 import {LiteratureComponent} from './body/literature/literature.component';
+import {FirstGroupComponent} from './body/groups/first-group/first-group.component';
+import {SecondGroupComponent} from './body/groups/second-group/second-group.component';
+import {ThirdGroupComponent} from './body/groups/third-group/third-group.component';
+import {FourthGroupComponent} from './body/groups/fourth-group/fourth-group.component';
 
 
 const routes: Routes = [
@@ -47,6 +51,22 @@ const routes: Routes = [
       {
         path: 'literature',
         component: LiteratureComponent
+      },
+      {
+        path: 'k-21',
+        component: FirstGroupComponent
+      },
+      {
+        path: 'k-22',
+        component: SecondGroupComponent
+      },
+      {
+        path: 'k-23',
+        component: ThirdGroupComponent
+      },
+      {
+        path: 'k-24',
+        component: FourthGroupComponent
       }
     ]
   }
