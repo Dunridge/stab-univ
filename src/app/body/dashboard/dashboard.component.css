@@ -1,5 +1,6 @@
 
 .page-container {
+  min-height: 120%;
   height: 140%;
   background: #ccefff;
   display: flex;
