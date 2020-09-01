@@ -18,45 +18,49 @@
         <p>Методична література</p>
       </a>
       <hr/>
-      <p class="section-name">Дисципліни</p>
-      <a routerLink="/os-architecture" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>Архітектура ОС</p>
-      </a>
-      <a routerLink="/informatics" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>Інформатика та ОТ</p>
-      </a>
-      <a routerLink="/databases" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>Бази даних та СУБД</p>
-      </a>
-      <a routerLink="/programming" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>Сучасні технології програмування</p>
-      </a>
+      <p class="section-name" (click)="toggleDisciplines()">Дисципліни</p>
+      <div class="disciplines" *ngIf="showDisciplines">
+        <a routerLink="/os-architecture" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>Архітектура ОС</p>
+        </a>
+        <a routerLink="/informatics" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>Інформатика та ОТ</p>
+        </a>
+        <a routerLink="/databases" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>Бази даних та СУБД</p>
+        </a>
+        <a routerLink="/programming" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>Сучасні технології програмування</p>
+        </a>
+      </div>
       <hr/>
-      <p class="section-name">Групи</p>
-      <a routerLink="/k-21" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>K-21</p>
-      </a>
-      <a routerLink="/k-22" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>K-22</p>
-      </a>
-      <a routerLink="/k-23" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>K-23</p>
-      </a>
-      <a routerLink="/k-24" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>K-24</p>
-      </a>
-      <a routerLink="/k-25" class="list-item">
-        <i class="material-icons">bookmark_border</i>
-        <p>K-25</p>
-      </a>
+      <p class="section-name" (click)="toggleGroups()">Групи</p>
+      <div class="groups" *ngIf="showGroups">
+        <a routerLink="/k-21" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>K-21</p>
+        </a>
+        <a routerLink="/k-22" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>K-22</p>
+        </a>
+        <a routerLink="/k-23" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>K-23</p>
+        </a>
+        <a routerLink="/k-24" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>K-24</p>
+        </a>
+        <a routerLink="/k-25" class="list-item">
+          <i class="material-icons">bookmark_border</i>
+          <p>K-25</p>
+        </a>
+      </div>
     </div>
   </div>
 
