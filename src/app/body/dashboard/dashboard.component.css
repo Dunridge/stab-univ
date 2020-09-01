@@ -12,6 +12,11 @@
   background: #99ccff;
 }
 
+.disciplines .list-item > *,
+.groups .list-item > *{
+  color: black;
+}
+
 .list-items {
   height: 100%;
 }
@@ -71,6 +76,7 @@
   padding-top: 5px;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.95);
+  cursor: pointer;
 }
 
 div.sidebar > div > a:nth-child(11) {
