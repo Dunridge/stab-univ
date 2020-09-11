@@ -65,3 +65,9 @@ footer {
 .useful-links-header {
   white-space: nowrap;
 }
+
+.footer-container {
+  width: 700px;
+  position: relative;
+  left: 20px;
+}
