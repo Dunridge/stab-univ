@@ -4,15 +4,20 @@
      fxLayoutAlign="center center"
      fxLayoutGap="10px">
 
-  <div fxFlex="100" fxFlex.gt-sm="60">
+  <div fxFlex="90" fxFlex.gt-sm="70">
     <div fxLayout="row">
-      <div fxFlex="40" fxFlexOffset="2px">
-        <h4 class="useful-links-header">Корисні посилання</h4>
+      <div fxFlex="100" >
         <mat-list>
-          <mat-list-item><a href="http://www.univ.kiev.ua/" mat-button>КНУ імені Тараса Шевченка</a></mat-list-item>
-          <mat-list-item><a href="http://satr.unicyb.kiev.ua/" mat-button>Кафедра САТР ф-ту кiбернетики</a></mat-list-item>
-          <mat-list-item><a href="http://csc.knu.ua/en/" mat-button>Факультет кібернетики</a></mat-list-item>
-          <mat-list-item><a href="https://www.mathway.com/" mat-button>Математичний помiчник</a></mat-list-item>
+          <div class="footer-container" fxLayout="row" fxLayoutGap="10">
+            <div fxFlex="50%">
+              <mat-list-item><a href="http://www.univ.kiev.ua/" mat-button>КНУ імені Тараса Шевченка</a></mat-list-item>
+              <mat-list-item><a href="http://satr.unicyb.kiev.ua/" mat-button>Кафедра САТР ф-ту кiбернетики</a></mat-list-item>
+            </div>
+            <div fxFlex="50%">
+              <mat-list-item><a href="http://csc.knu.ua/en/" mat-button>Факультет кібернетики</a></mat-list-item>
+              <mat-list-item><a href="https://www.mathway.com/" mat-button>Математичний помiчник</a></mat-list-item>
+            </div>
+          </div>
         </mat-list>
       </div>
     </div>
@@ -27,7 +32,7 @@
       <a mat-icon-button class="social-btn btn-mail" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
     </div>
   </div>
-  <div>
+  <div class="footer-logo">
     <p>© STAB 2020</p>
   </div>
 </div>

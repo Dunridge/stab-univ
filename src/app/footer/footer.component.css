@@ -65,3 +65,13 @@ footer {
 .useful-links-header {
   white-space: nowrap;
 }
+
+.footer {
+  position: relative;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
