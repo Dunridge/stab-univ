@@ -66,8 +66,12 @@ footer {
   white-space: nowrap;
 }
 
-.footer-container {
-  width: 700px;
+.footer {
   position: relative;
-  left: 20px;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
 }
